@@ -10,7 +10,7 @@ sqlContext = SQLContext(sc)
 def set_hadoop_config(creds):
     prefix = "fs.swift.service." + creds['name']
     hconf = sc._jsc.hadoopConfiguration()
-    hconf.set(prefix + ".auth.url", creds['auth_url'] + '/v3.0/tokens')
+    hconf.set(prefix + ".auth.url", creds['auth_url'] + '/v3/tokens')
     hconf.set(prefix + ".auth.endpoint.prefix", "endpoints")
     hconf.set(prefix + ".tenant", creds['project_id'])
     hconf.set(prefix + ".username", creds['user_id'])
