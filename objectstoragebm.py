@@ -23,18 +23,18 @@ def set_hadoop_config(creds):
 # object storage credentials
 objectStorageCreds = {
 
-    'username': 'Admin_5b8faff871d87700d342130e7cc52e06a7019feb',
-    'password': 'y]6fCD{bYrqPnI8T',
+    'username': 'xxxx',
+    'password': 'xxxxx',
     'auth_url': 'https://identity.open.softlayer.com',
-    'project': 'object_storage_216c032f_3f57_4763_ae97_5c6a83a0d523',
-    'project_id': 'e097bbd898534ed1ad0e45c82baedb2d',
+    'project': 'xxxxxx',
+    'project_id': 'xxxxxx',
     'region': 'dallas',
-    'user_id': 'a493676500794827b020874099c5ee1c',
-    'domain_id': 'da5b6dd1c8374f67b1050172badbef8c',
+    'user_id': 'xxxxx',
+    'domain_id': 'xxxxx',
     'domain_name': '837523',
     'filename': 'sample.txt',
     'container': 'notebook',
-    'tenantId': 'sb03-405c52350912e8-2c631c8ff999'
+    'tenantId': 'xxxxx'
 
 }
 objectStorageCreds['name'] = 'TEST'
