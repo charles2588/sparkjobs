@@ -5,7 +5,7 @@ from pyspark import SparkContext
 
 if __name__ == "__main__":
         sc = SparkContext(appName="MongoDB CON TEST")
-        print("Hello Spark Demo. Compute the mean and variance of a collection")
+        print("Hello Spark Demo Connection")
         print("Begining MongoCon")
 
         mongo_url = "mongodb://ds045252.mlab.com:45252"
