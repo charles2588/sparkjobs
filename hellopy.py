@@ -4,7 +4,7 @@ import sys
 from operator import add
 from pyspark import SparkContext
 
-if __main__ == "__main__":
+if __name__ == "__main__":
   sc = SparkContext(appName="PythonWordCountCygwin")
   print(sc.version)
   sc.stop()
